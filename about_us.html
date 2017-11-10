@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="ufl-8">
+        <title>Forms</title>
+    </head>
+    <body>
+        <ul type="disc">
+            <li>
+                <a href="index.html">Main</a>
+             </li>
+            <li>
+                <a href="collection.html">Collection</a>
+            </li>
+            <li>
+                <a href="about_us.html">About us</a>
+            </li>
+        </ul>
+        <h2>Contacts</h2>
+        <p><strong>Adress</strong> St. Petersburg, Russia</p>
+        <p><strong>E-mail</strong> opt@jsplash.ru</p>
+        <p><strong>Telephone</strong> 8 800 505 50 81</p>
+        <br>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>У вас остались вопросы?</legend>
+                <div>
+                    <label for="textField">Name</label>
+                    <input id="textField" type="text" placeholder="name"
+                    required ><!-- универсальный тег, многое зависит от атрибута type, его действие описывает Label, связанный id -->
+                </div>
+
+                <div>
+                    <label for="pwd">E-mail</label>
+                    <input id="pwd" type="text" placeholder="e-mail"
+                    required >
+                </div>
+
+                <div>
+                    <label for="text_area">Text</label>
+                    <textarea rows="5" id="text_area">
+                    </textarea>
+                </div>
+                <input type="hidden">
+            </fieldset>
+        </form>
+    </body>
+</html>

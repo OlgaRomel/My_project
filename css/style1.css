@@ -1,0 +1,29 @@
+div {
+    background: #decbe9;
+    padding: 10px;
+}
+
+fieldset {
+    padding: 1em;
+    font:90%/1 sans-serif;
+    }
+
+label {
+    float:left;
+    width:35%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    font-weight:bold;
+    }
+
+legend {
+    padding: 0.2em 0.5em;
+    order:1px solid rgb(236, 10, 10);
+    color:rgb(236, 10, 10);
+    font-size:120%;
+    }
+.class-ots {
+    
+}
+

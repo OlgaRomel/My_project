@@ -1,16 +1,38 @@
-div {
-    background: #decbe9;
+@import "grid.css";
+
+.menu {
+    background: rgb(1, 11, 15);
+    font-size: 15pt;
+  /*  list-style-type: none;  убирает маркеры*/
+}
+
+.menu li {
+    display: inline-block;
+    }
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     padding: 10px;
+    }
+
+.menu a:hover {
+    color: red;
+}
+.form {
+    padding: 5px;
 }
 
 fieldset {
     padding: 1em;
     font:90%/1 sans-serif;
+    width: 80%;
     }
 
 label {
     float:left;
-    width:35%;
+    width:30%;
     margin-right:0.5em;
     padding-top:0.2em;
     text-align:right;
@@ -19,11 +41,11 @@ label {
 
 legend {
     padding: 0.2em 0.5em;
-    order:1px solid rgb(236, 10, 10);
+    border:1px solid rgb(236, 10, 10);
     color:rgb(236, 10, 10);
     font-size:120%;
     }
-.class-ots {
-    
-}
-
+.wrapper {
+        margin: 0 auto;
+        max-width: 950px;
+    }

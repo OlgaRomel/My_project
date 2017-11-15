@@ -3,33 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Women's fashion</title>
+        <link rel="stylesheet" href="css/style1.css">
     </head>
     <body>
-        <ul type="disc">
-            <li>
-                <a href="index.html">Main</a>
-            </li>
-            <li>
-                <a href="collection.html">Collection</a>
-            </li>
-            <li>
-                <a href="about_us.html">About us</a>
-            </li>
-        </ul>
-        <blockquote>A girl should be two things: classy and fabulous.<br>
-        Luxury must be comfortable, otherwise it is not luxury.<br>
-        Fashion fades, only style remains the same.</blockquote>
-        &emsp;<em>Coco Chanel</em>
-        <br>
-        <p>Для получения прайса, заполните <a href="form.html">форму регистрации.</a></p>
-        <tabel style="width:100%">
-            <tr>
-                 <td><img src="images/2.jpg" alt="model_1" height="870"></th>
-                <td><img src="images/3.jpg" alt="model_1" height="870"></th>
-            </tr>
-            <tr>
-                <td colspan="2"><img src="images/5.jpg" alt="model_1"></th>
-            </tr>        
-        </tabel>
+        <div class="wrapper">
+            <div class="menu">
+                <ul type="disc">
+                    <li>
+                        <a href="index.html">Main</a>
+                    </li>
+                    <li>
+                        <a href="collection.html">Collection</a>
+                    </li>
+                    <li>
+                        <a href="about_us.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <blockquote>A girl should be two things: classy and fabulous.<br>
+                        Luxury must be comfortable, otherwise it is not luxury.<br>
+                        Fashion fades, only style remains the same.</blockquote>
+                        &emsp;<em>Coco Chanel</em><br>
+                <p>Для получения прайса, заполните <a href="form.html">форму регистрации.</a></p>
+                <div class="col-6">
+                    <img src="images/2.jpg" alt="model_1">
+                </div>
+                <div class="col-6">
+                    <img src="images/3.jpg" alt="model_1">
+                </div>
+                <div class="col-12"> 
+                    <img src="images/5.jpg" alt="model_1">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
